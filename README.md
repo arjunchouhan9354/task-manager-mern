@@ -2,10 +2,10 @@
 
 A simple, secure task manager: sign up, log in, and create, edit, delete and organise your own tasks with status, priority and due dates, plus search, filters, sorting and pagination.
 
-**Live app:** `[add Render URL]` · **Demo login:** `demo@taskmanager.dev` / `Demo@1234` (or click **Use demo account**)
+**Live app:** https://task-manager-mern-e0vk.onrender.com · **Demo login:** `demo@taskmanager.dev` / `Demo@1234` (or click **Use demo account**)
 > Hosted on Render's free tier: the first load after a period of inactivity can take up to a minute while the server wakes up.
 
-**Video walkthrough:** `[add video link]`
+**Video walkthrough:** https://www.loom.com/share/7460f80a2010479c975b3e942d189a05
 
 ---
 
