@@ -1,0 +1,11 @@
+---
+description: Express API conventions for the task manager
+globs: server/**/*.js
+alwaysApply: false
+---
+- Express 5 + Mongoose, plain JavaScript (CommonJS). No new npm packages without asking.
+- Validate every body/query/params with Zod in src/validation, applied via the validate middleware.
+- Every task query MUST include userId: req.user.id. Other users' tasks return 404, never 403.
+- Responses use { error, status, message, data }.
+- Every new endpoint needs tests in server/tests (node:test + supertest), including a test that another user gets 404.
+- Run `npm test` inside server/ after changes.
